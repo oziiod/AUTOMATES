@@ -16,7 +16,7 @@ Etat | Etat
 Transition | Tran
 Automate | Auto
 
-Note : ces éléments sont des objets/structures d'où il leur est attribué une majuscule mais leurs fonctions membres devront impérativement commencer par une minuscule.
+Note : ces éléments sont des objets/structures d'où il leur est attribué une majuscule mais leurs fonctions membres devront impérativement commencer par une minuscule (mis à part le constructeur et le destructeur).
 
 ### Liste d'annotations des fonctions de calcul
 Fonction | Abréviation
@@ -30,9 +30,10 @@ Initial | init
 Terminal | term
 
 ## Arborescence du code
-Chaque dossier sauf le tronc comportera trois éléments :
+Chaque dossier sauf le tronc comportera quatres éléments :
 - un fichier d'interface type Automate.h
 - un fichier contenant les fonctions type Automate.c
 - un fichier appelé main.c qui permet de tester chaque les fonctions du dossier
+- un fichier appelé compile qui a l'instruction gcc de compilation
 
 Cela permettra de voir comment le code a été construit et de se remémorer l'usage de certaines fonctions plus aisément.
