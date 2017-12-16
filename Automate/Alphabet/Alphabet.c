@@ -17,8 +17,6 @@ void Alph_destroy(Alph* A)
 	/* libère la liste */
 	free(A->list) ;
 	A->size = 0 ;
-	/* libère A */
-	free(A) ;
 }
 
 void alph_add(Alph* A, char c) 

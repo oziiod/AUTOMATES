@@ -18,5 +18,7 @@ int main(void)
 	/* on affiche l'alphabet */
 	alph_print(A) ;
 
+	/* on détruit notre alphabet */
+	Alph_destroy(&A) ;
 	return EXIT_SUCCESS ;
 }
