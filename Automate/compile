@@ -1,0 +1,1 @@
+gcc -Wall -o main main.c Automate.c Alphabet/Alphabet.c Etat/Etat.c Transition/Transition.c
