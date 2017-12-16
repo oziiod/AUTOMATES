@@ -30,6 +30,7 @@ Initial | init
 Terminal | term
 Départ | dpt
 Arrivé | arv
+Etiquette | etq
 
 ## Arborescence du code
 Chaque dossier sauf le tronc comportera quatres éléments :
