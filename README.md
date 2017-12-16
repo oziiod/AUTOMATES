@@ -28,6 +28,8 @@ Mot de vocabulaire | Abréviation
 --- | ---
 Initial | init
 Terminal | term
+Départ | dpt
+Arrivé | arv
 
 ## Arborescence du code
 Chaque dossier sauf le tronc comportera quatres éléments :
