@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-Etat Etat_constructor(int init, int term)
+Etat Etat_construct(int init, int term)
 {
 	Etat q ;
 

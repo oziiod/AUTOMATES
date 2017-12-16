@@ -10,7 +10,7 @@ typedef struct Etat
 } Etat ;
 
 /* prend 0 ou 1 en arg */
-Etat Etat_constructor(int init, int term) ;
+Etat Etat_construct(int init, int term) ;
 
 /* fonction obsolète car aucun pointeur donc aucune destruction à gérer
 void Etat_destructor(Etat q) ; */
