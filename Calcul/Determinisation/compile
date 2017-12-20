@@ -1,0 +1,1 @@
+gcc -Wall -o main main.c determinisation.c ../../Automate/Automate.c ../../Automate/Etat/Etat.c ../../Automate/Transition/Transition.c ../../Automate/Alphabet/Alphabet.c
