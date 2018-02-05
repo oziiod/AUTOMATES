@@ -1,7 +1,7 @@
 #ifndef _DETERMINISATION_H_
 #define _DETERMINISATION_H_
 
-#include "../../AUTOMATE/automate.h"
+#include "../../Automate/Automate.h"
 
 #include <stdlib.h>
 

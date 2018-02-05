@@ -88,6 +88,27 @@ int main()
 	auto_print(determinisation(Delta)) ;
 
 
+	/* mise en évidence d'un bug dans la fonction déterminisation */
+	Auto Gamma = Auto_construct() ;
+	auto_add_alph(&Gamma,"ab") ;
+	auto_add_etat(&Gamma,Etat_construct(1,0)) ;
+	auto_add_etat(&Gamma,Etat_construct(0,0)) ;
+	auto_add_etat(&Gamma,Etat_construct(0,0)) ;
+	auto_add_etat(&Gamma,Etat_construct(0,1)) ;
+	auto_add_tran(&Gamma,0,0,'a') ;
+	auto_add_tran(&Gamma,0,0,'b') ;
+	auto_add_tran(&Gamma,0,1,'b') ;
+	auto_add_tran(&Gamma,1,2,'a') ;
+	auto_add_tran(&Gamma,2,3,'a') ;
+	auto_add_tran(&Gamma,3,3,'a') ;
+	auto_add_tran(&Gamma,3,3,'b') ;
+
+	printf("Automate Gamma : \n") ;
+	auto_print(Gamma) ;
+	printf("On determinise Gamma\n") ;
+	auto_print(determinisation(Gamma)) ;
+
+
 	return EXIT_SUCCESS ;
 }
 
